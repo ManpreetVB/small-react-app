@@ -9,6 +9,8 @@ import Greeting from './Greeting'
 import LoginPanel from './LoginPanel'
 import Cart from './Cart'
 import Discount from './Discount'
+import ProductList from './ProductList'
+import TodoList from './TodoList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +22,10 @@ function App() {
     <ToggleMessage/>
     <Greeting/>
     <LoginPanel/>
-   {/* <Cart/> */}
+    <Cart/> 
    <Discount/>
+   <ProductList/>
+   <TodoList/>
     </>
   )
 }
